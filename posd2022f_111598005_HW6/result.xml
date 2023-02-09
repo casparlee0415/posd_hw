@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="139" failures="0" disabled="0" errors="0" time="2.501" timestamp="2022-12-16T14:47:46.985" name="AllTests">
+  <testsuite name="PointTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.099" timestamp="2022-12-16T14:47:47.058">
+    <testcase name="testX" file="test/./ut_point.h" line="18" status="run" result="completed" time="0.021" timestamp="2022-12-16T14:47:47.062" classname="PointTest" />
+    <testcase name="testY" file="test/./ut_point.h" line="23" status="run" result="completed" time="0.003" timestamp="2022-12-16T14:47:47.089" classname="PointTest" />
+    <testcase name="testInfo" file="test/./ut_point.h" line="28" status="run" result="completed" time="0.05" timestamp="2022-12-16T14:47:47.092" classname="PointTest" />
+    <testcase name="testOperator" file="test/./ut_point.h" line="33" status="run" result="completed" time="0.013" timestamp="2022-12-16T14:47:47.144" classname="PointTest" />
+  </testsuite>
+  <testsuite name="VectorTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.078" timestamp="2022-12-16T14:47:47.170">
+    <testcase name="testCross" file="test/./ut_two_dimensional_vector.h" line="28" status="run" result="completed" time="0.022" timestamp="2022-12-16T14:47:47.170" classname="VectorTest" />
+    <testcase name="testDot" file="test/./ut_two_dimensional_vector.h" line="33" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:47.194" classname="VectorTest" />
+    <testcase name="testLength" file="test/./ut_two_dimensional_vector.h" line="38" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:47.203" classname="VectorTest" />
+    <testcase name="testInfo" file="test/./ut_two_dimensional_vector.h" line="43" status="run" result="completed" time="0.021" timestamp="2022-12-16T14:47:47.211" classname="VectorTest" />
+    <testcase name="testA" file="test/./ut_two_dimensional_vector.h" line="48" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:47.233" classname="VectorTest" />
+    <testcase name="testB" file="test/./ut_two_dimensional_vector.h" line="53" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:47.240" classname="VectorTest" />
+  </testsuite>
+  <testsuite name="TriangleTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.317" timestamp="2022-12-16T14:47:47.250">
+    <testcase name="testConstructor" file="test/./ut_triangle.h" line="48" status="run" result="completed" time="0.099" timestamp="2022-12-16T14:47:47.251" classname="TriangleTest" />
+    <testcase name="testArea" file="test/./ut_triangle.h" line="53" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:47.351" classname="TriangleTest" />
+    <testcase name="testPerimeter" file="test/./ut_triangle.h" line="58" status="run" result="completed" time="0.013" timestamp="2022-12-16T14:47:47.356" classname="TriangleTest" />
+    <testcase name="testInfo" file="test/./ut_triangle.h" line="63" status="run" result="completed" time="0.011" timestamp="2022-12-16T14:47:47.371" classname="TriangleTest" />
+    <testcase name="testAddShape" file="test/./ut_triangle.h" line="69" status="run" result="completed" time="0.075" timestamp="2022-12-16T14:47:47.384" classname="TriangleTest" />
+    <testcase name="testDeleteShape" file="test/./ut_triangle.h" line="75" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:47.460" classname="TriangleTest" />
+    <testcase name="testCreateIterator" file="test/./ut_triangle.h" line="81" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:47.464" classname="TriangleTest" />
+    <testcase name="testGetPoints1" file="test/./ut_triangle.h" line="87" status="run" result="completed" time="0.017" timestamp="2022-12-16T14:47:47.471" classname="TriangleTest" />
+    <testcase name="testGetPoints2" file="test/./ut_triangle.h" line="91" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:47.489" classname="TriangleTest" />
+    <testcase name="testGetPoints3" file="test/./ut_triangle.h" line="95" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:47.499" classname="TriangleTest" />
+    <testcase name="testAccept" file="test/./ut_triangle.h" line="99" status="run" result="completed" time="0.059" timestamp="2022-12-16T14:47:47.508" classname="TriangleTest" />
+  </testsuite>
+  <testsuite name="RectangleTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.221" timestamp="2022-12-16T14:47:47.569">
+    <testcase name="testConstructor" file="test/./ut_rectangle.h" line="51" status="run" result="completed" time="0.099" timestamp="2022-12-16T14:47:47.569" classname="RectangleTest" />
+    <testcase name="testArea" file="test/./ut_rectangle.h" line="57" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:47.670" classname="RectangleTest" />
+    <testcase name="testPerimeter" file="test/./ut_rectangle.h" line="62" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:47.679" classname="RectangleTest" />
+    <testcase name="testLength" file="test/./ut_rectangle.h" line="67" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:47.690" classname="RectangleTest" />
+    <testcase name="testWidth" file="test/./ut_rectangle.h" line="72" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:47.700" classname="RectangleTest" />
+    <testcase name="testInfo" file="test/./ut_rectangle.h" line="77" status="run" result="completed" time="0.012" timestamp="2022-12-16T14:47:47.706" classname="RectangleTest" />
+    <testcase name="testCreateDFSIterator" file="test/./ut_rectangle.h" line="83" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:47.719" classname="RectangleTest" />
+    <testcase name="testAddShape" file="test/./ut_rectangle.h" line="89" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:47.726" classname="RectangleTest" />
+    <testcase name="testDeleteShape" file="test/./ut_rectangle.h" line="95" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:47.734" classname="RectangleTest" />
+    <testcase name="testGetPoints1" file="test/./ut_rectangle.h" line="100" status="run" result="completed" time="0.011" timestamp="2022-12-16T14:47:47.742" classname="RectangleTest" />
+    <testcase name="testGetPoints2" file="test/./ut_rectangle.h" line="105" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:47.754" classname="RectangleTest" />
+    <testcase name="testGetPoints3" file="test/./ut_rectangle.h" line="110" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:47.766" classname="RectangleTest" />
+    <testcase name="testAccept" file="test/./ut_rectangle.h" line="115" status="run" result="completed" time="0.013" timestamp="2022-12-16T14:47:47.776" classname="RectangleTest" />
+  </testsuite>
+  <testsuite name="CircleTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.104" timestamp="2022-12-16T14:47:47.795">
+    <testcase name="testArea" file="test/./ut_circle.h" line="48" status="run" result="completed" time="0.028" timestamp="2022-12-16T14:47:47.795" classname="CircleTest" />
+    <testcase name="testPerimeter" file="test/./ut_circle.h" line="53" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:47.825" classname="CircleTest" />
+    <testcase name="testInfo" file="test/./ut_circle.h" line="58" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:47.833" classname="CircleTest" />
+    <testcase name="testRadius" file="test/./ut_circle.h" line="63" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:47.843" classname="CircleTest" />
+    <testcase name="testAddShape" file="test/./ut_circle.h" line="68" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:47.849" classname="CircleTest" />
+    <testcase name="testDeleteShape" file="test/./ut_circle.h" line="73" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:47.855" classname="CircleTest" />
+    <testcase name="testCreateIterator" file="test/./ut_circle.h" line="78" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:47.861" classname="CircleTest" />
+    <testcase name="testGetPoints1" file="test/./ut_circle.h" line="83" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:47.868" classname="CircleTest" />
+    <testcase name="testGetPoints2" file="test/./ut_circle.h" line="88" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:47.876" classname="CircleTest" />
+    <testcase name="testAccept" file="test/./ut_circle.h" line="93" status="run" result="completed" time="0.012" timestamp="2022-12-16T14:47:47.886" classname="CircleTest" />
+  </testsuite>
+  <testsuite name="ShapeTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.037" timestamp="2022-12-16T14:47:47.901">
+    <testcase name="testRectangle" file="test/./ut_shape.h" line="39" status="run" result="completed" time="0.015" timestamp="2022-12-16T14:47:47.901" classname="ShapeTest" />
+    <testcase name="testCircle" file="test/./ut_shape.h" line="44" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:47.917" classname="ShapeTest" />
+    <testcase name="testCompoundShape" file="test/./ut_shape.h" line="49" status="run" result="completed" time="0.014" timestamp="2022-12-16T14:47:47.923" classname="ShapeTest" />
+  </testsuite>
+  <testsuite name="CompoundShapeTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.302" timestamp="2022-12-16T14:47:47.939">
+    <testcase name="testArea" file="test/./ut_compound_shape.h" line="66" status="run" result="completed" time="0.06" timestamp="2022-12-16T14:47:47.939" classname="CompoundShapeTest" />
+    <testcase name="testPerimeter" file="test/./ut_compound_shape.h" line="71" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:48.000" classname="CompoundShapeTest" />
+    <testcase name="testInfo" file="test/./ut_compound_shape.h" line="76" status="run" result="completed" time="0.017" timestamp="2022-12-16T14:47:48.008" classname="CompoundShapeTest" />
+    <testcase name="testAddShape" file="test/./ut_compound_shape.h" line="86" status="run" result="completed" time="0.015" timestamp="2022-12-16T14:47:48.026" classname="CompoundShapeTest" />
+    <testcase name="testDeleteShape" file="test/./ut_compound_shape.h" line="96" status="run" result="completed" time="0.027" timestamp="2022-12-16T14:47:48.042" classname="CompoundShapeTest" />
+    <testcase name="testCreateDFSIterator" file="test/./ut_compound_shape.h" line="103" status="run" result="completed" time="0.036" timestamp="2022-12-16T14:47:48.070" classname="CompoundShapeTest" />
+    <testcase name="testCreateBFSIterator" file="test/./ut_compound_shape.h" line="109" status="run" result="completed" time="0.052" timestamp="2022-12-16T14:47:48.107" classname="CompoundShapeTest" />
+    <testcase name="testCreateListIterator" file="test/./ut_compound_shape.h" line="115" status="run" result="completed" time="0.013" timestamp="2022-12-16T14:47:48.159" classname="CompoundShapeTest" />
+    <testcase name="testGetPoints1" file="test/./ut_compound_shape.h" line="121" status="run" result="completed" time="0.021" timestamp="2022-12-16T14:47:48.173" classname="CompoundShapeTest" />
+    <testcase name="testGetPoints2" file="test/./ut_compound_shape.h" line="126" status="run" result="completed" time="0.011" timestamp="2022-12-16T14:47:48.195" classname="CompoundShapeTest" />
+    <testcase name="testGetPoints3" file="test/./ut_compound_shape.h" line="131" status="run" result="completed" time="0.01" timestamp="2022-12-16T14:47:48.208" classname="CompoundShapeTest" />
+    <testcase name="testGetPoints4" file="test/./ut_compound_shape.h" line="136" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:48.218" classname="CompoundShapeTest" />
+    <testcase name="testAccept" file="test/./ut_compound_shape.h" line="141" status="run" result="completed" time="0.013" timestamp="2022-12-16T14:47:48.227" classname="CompoundShapeTest" />
+  </testsuite>
+  <testsuite name="NullIteratorTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.031" timestamp="2022-12-16T14:47:48.242">
+    <testcase name="FirstShouldThrowException" file="test/./iterator/ut_null_iterator.h" line="19" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:48.243" classname="NullIteratorTest" />
+    <testcase name="CurrentShouldThrowException" file="test/./iterator/ut_null_iterator.h" line="24" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:48.252" classname="NullIteratorTest" />
+    <testcase name="NextShouldThrowException" file="test/./iterator/ut_null_iterator.h" line="29" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:48.258" classname="NullIteratorTest" />
+    <testcase name="IsDoneShouldBeTrue" file="test/./iterator/ut_null_iterator.h" line="34" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:48.267" classname="NullIteratorTest" />
+  </testsuite>
+  <testsuite name="ListCompoundIteratorTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.046" timestamp="2022-12-16T14:47:48.274">
+    <testcase name="CurrentItemShouldBeCorrect" file="test/./iterator/ut_list_compound_iterator.h" line="46" status="run" result="completed" time="0.023" timestamp="2022-12-16T14:47:48.274" classname="ListCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect" file="test/./iterator/ut_list_compound_iterator.h" line="51" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:48.299" classname="ListCompoundIteratorTest" />
+    <testcase name="IsDoneShouldBeCorrect" file="test/./iterator/ut_list_compound_iterator.h" line="57" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:48.304" classname="ListCompoundIteratorTest" />
+    <testcase name="CurrentItemShouldThrowExceptionWhenIsDone" file="test/./iterator/ut_list_compound_iterator.h" line="65" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:48.310" classname="ListCompoundIteratorTest" />
+    <testcase name="NextShouldThrowExceptionWhenIsDone" file="test/./iterator/ut_list_compound_iterator.h" line="73" status="run" result="completed" time="0.003" timestamp="2022-12-16T14:47:48.316" classname="ListCompoundIteratorTest" />
+  </testsuite>
+  <testsuite name="DFSCompoundIteratorTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.062" timestamp="2022-12-16T14:47:48.322">
+    <testcase name="CurrentItemShouldBeCorrect" file="test/./iterator/ut_dfs_compound_iterator.h" line="47" status="run" result="completed" time="0.032" timestamp="2022-12-16T14:47:48.322" classname="DFSCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect" file="test/./iterator/ut_dfs_compound_iterator.h" line="52" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:48.355" classname="DFSCompoundIteratorTest" />
+    <testcase name="IsDoneShouldBeCorrect" file="test/./iterator/ut_dfs_compound_iterator.h" line="58" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:48.361" classname="DFSCompoundIteratorTest" />
+    <testcase name="CurrentItemShouldThrowExceptionWhenIsDone" file="test/./iterator/ut_dfs_compound_iterator.h" line="68" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:48.371" classname="DFSCompoundIteratorTest" />
+    <testcase name="NextShouldThrowExceptionWhenIsDone" file="test/./iterator/ut_dfs_compound_iterator.h" line="78" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.377" classname="DFSCompoundIteratorTest" />
+  </testsuite>
+  <testsuite name="BFSCompoundIteratorTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.054" timestamp="2022-12-16T14:47:48.386">
+    <testcase name="CurrentItemShouldBeCorrect" file="test/./iterator/ut_bfs_compound_iterator.h" line="46" status="run" result="completed" time="0.027" timestamp="2022-12-16T14:47:48.386" classname="BFSCompoundIteratorTest" />
+    <testcase name="NextShouldBeCorrect" file="test/./iterator/ut_bfs_compound_iterator.h" line="51" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.414" classname="BFSCompoundIteratorTest" />
+    <testcase name="IsDoneShouldBeCorrect" file="test/./iterator/ut_bfs_compound_iterator.h" line="57" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:48.421" classname="BFSCompoundIteratorTest" />
+    <testcase name="CurrentItemShouldThrowExceptionWhenIsDone" file="test/./iterator/ut_bfs_compound_iterator.h" line="67" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:48.426" classname="BFSCompoundIteratorTest" />
+    <testcase name="NextShouldThrowExceptionWhenIsDone" file="test/./iterator/ut_bfs_compound_iterator.h" line="77" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:48.435" classname="BFSCompoundIteratorTest" />
+  </testsuite>
+  <testsuite name="BoundingBoxTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.068" timestamp="2022-12-16T14:47:48.441">
+    <testcase name="testCalMaximumPoint" file="test/./ut_bounding_box.h" line="58" status="run" result="completed" time="0.037" timestamp="2022-12-16T14:47:48.441" classname="BoundingBoxTest" />
+    <testcase name="testCalMinimumPoint" file="test/./ut_bounding_box.h" line="63" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.480" classname="BoundingBoxTest" />
+    <testcase name="testMax" file="test/./ut_bounding_box.h" line="68" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:48.487" classname="BoundingBoxTest" />
+    <testcase name="testMin" file="test/./ut_bounding_box.h" line="73" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:48.493" classname="BoundingBoxTest" />
+    <testcase name="testCollide" file="test/./ut_bounding_box.h" line="78" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.502" classname="BoundingBoxTest" />
+  </testsuite>
+  <testsuite name="CollisionDetectorTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.079" timestamp="2022-12-16T14:47:48.512">
+    <testcase name="testVisitRectangle" file="test/./visitor/ut_collision_detector.h" line="61" status="run" result="completed" time="0.043" timestamp="2022-12-16T14:47:48.513" classname="CollisionDetectorTest" />
+    <testcase name="testVisitCircle" file="test/./visitor/ut_collision_detector.h" line="69" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:48.556" classname="CollisionDetectorTest" />
+    <testcase name="testVisitTriangle" file="test/./visitor/ut_collision_detector.h" line="77" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.566" classname="CollisionDetectorTest" />
+    <testcase name="testVisitCompoundShape" file="test/./visitor/ut_collision_detector.h" line="86" status="run" result="completed" time="0.01" timestamp="2022-12-16T14:47:48.573" classname="CollisionDetectorTest" />
+    <testcase name="testCollidedShapes" file="test/./visitor/ut_collision_detector.h" line="95" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.584" classname="CollisionDetectorTest" />
+  </testsuite>
+  <testsuite name="ShapeBuilderTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.086" timestamp="2022-12-16T14:47:48.592">
+    <testcase name="testBuildRectangle" file="test/./builder/ut_shape_builder.h" line="42" status="run" result="completed" time="0.041" timestamp="2022-12-16T14:47:48.592" classname="ShapeBuilderTest" />
+    <testcase name="testBuildCircle" file="test/./builder/ut_shape_builder.h" line="48" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:48.634" classname="ShapeBuilderTest" />
+    <testcase name="testBuildTriangle" file="test/./builder/ut_shape_builder.h" line="56" status="run" result="completed" time="0.01" timestamp="2022-12-16T14:47:48.641" classname="ShapeBuilderTest" />
+    <testcase name="testBuildCompoundShape" file="test/./builder/ut_shape_builder.h" line="63" status="run" result="completed" time="0.018" timestamp="2022-12-16T14:47:48.652" classname="ShapeBuilderTest" />
+    <testcase name="testBuildCompoundEnd" file="test/./builder/ut_shape_builder.h" line="72" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:48.670" classname="ShapeBuilderTest" />
+  </testsuite>
+  <testsuite name="ScannerTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.073" timestamp="2022-12-16T14:47:48.680">
+    <testcase name="testNext" file="test/./builder/ut_scanner.h" line="20" status="run" result="completed" time="0.034" timestamp="2022-12-16T14:47:48.681" classname="ScannerTest" />
+    <testcase name="testNextDouble" file="test/./builder/ut_scanner.h" line="25" status="run" result="completed" time="0.029" timestamp="2022-12-16T14:47:48.716" classname="ScannerTest" />
+    <testcase name="testIsDone" file="test/./builder/ut_scanner.h" line="34" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:48.747" classname="ScannerTest" />
+  </testsuite>
+  <testsuite name="ShapeParserTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.049" timestamp="2022-12-16T14:47:48.754">
+    <testcase name="testParse" file="test/./builder/ut_shape_parser.h" line="35" status="run" result="completed" time="0.041" timestamp="2022-12-16T14:47:48.754" classname="ShapeParserTest" />
+    <testcase name="testGetResult" file="test/./builder/ut_shape_parser.h" line="40" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.797" classname="ShapeParserTest" />
+  </testsuite>
+  <testsuite name="FileReaderTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.055" timestamp="2022-12-16T14:47:48.805">
+    <testcase name="ReadShouldBeCorrect" file="test/./utils/ut_file_reader.h" line="3" status="run" result="completed" time="0.054" timestamp="2022-12-16T14:47:48.805" classname="FileReaderTest" />
+  </testsuite>
+  <testsuite name="SDLAdapterTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.112" timestamp="2022-12-16T14:47:48.862">
+    <testcase name="InitShouldBeCalled" file="test/./graphics/ut_sdl_adapter.h" line="42" status="run" result="completed" time="0.021" timestamp="2022-12-16T14:47:48.863" classname="SDLAdapterTest" />
+    <testcase name="renderDrawCircleCalledArgsShouldBeCorrect" file="test/./graphics/ut_sdl_adapter.h" line="47" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:48.885" classname="SDLAdapterTest" />
+    <testcase name="renderDrawCircleCalledArgsShouldBeCorrect2" file="test/./graphics/ut_sdl_adapter.h" line="55" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:48.898" classname="SDLAdapterTest" />
+    <testcase name="renderDrawTriangleCalledArgsShouldBeCorrect" file="test/./graphics/ut_sdl_adapter.h" line="64" status="run" result="completed" time="0.037" timestamp="2022-12-16T14:47:48.905" classname="SDLAdapterTest" />
+    <testcase name="renderDrawTriangleCalledArgsShouldBeCorrect2" file="test/./graphics/ut_sdl_adapter.h" line="72" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:48.943" classname="SDLAdapterTest" />
+    <testcase name="renderDrawRectangleCalledArgsShouldBeCorrect" file="test/./graphics/ut_sdl_adapter.h" line="81" status="run" result="completed" time="0.014" timestamp="2022-12-16T14:47:48.950" classname="SDLAdapterTest" />
+    <testcase name="renderDrawRectangleCalledArgsShouldBeCorrect2" file="test/./graphics/ut_sdl_adapter.h" line="89" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:48.965" classname="SDLAdapterTest" />
+    <testcase name="renderPresentShouldBeCorrect" file="test/./graphics/ut_sdl_adapter.h" line="98" status="run" result="completed" time="0.003" timestamp="2022-12-16T14:47:48.970" classname="SDLAdapterTest" />
+  </testsuite>
+  <testsuite name="CommandHistoryTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.175" timestamp="2022-12-16T14:47:48.975">
+    <testcase name="testAddCommand" file="test/./graphics/drag_and_drop/command/ut_command_history.h" line="18" status="run" result="completed" time="0.083" timestamp="2022-12-16T14:47:48.976" classname="CommandHistoryTest" />
+    <testcase name="testUndo" file="test/./graphics/drag_and_drop/command/ut_command_history.h" line="29" status="run" result="completed" time="0.012" timestamp="2022-12-16T14:47:49.060" classname="CommandHistoryTest" />
+    <testcase name="testBeginMacroCommand" file="test/./graphics/drag_and_drop/command/ut_command_history.h" line="42" status="run" result="completed" time="0.057" timestamp="2022-12-16T14:47:49.073" classname="CommandHistoryTest" />
+    <testcase name="testEndMacroCommand" file="test/./graphics/drag_and_drop/command/ut_command_history.h" line="54" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:49.132" classname="CommandHistoryTest" />
+    <testcase name="testGetHistory" file="test/./graphics/drag_and_drop/command/ut_command_history.h" line="66" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:49.142" classname="CommandHistoryTest" />
+  </testsuite>
+  <testsuite name="GrabCommandTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.107" timestamp="2022-12-16T14:47:49.152">
+    <testcase name="testExecute" file="test/./graphics/drag_and_drop/command/ut_grab_command.h" line="23" status="run" result="completed" time="0.051" timestamp="2022-12-16T14:47:49.152" classname="GrabCommandTest" />
+    <testcase name="testUndo" file="test/./graphics/drag_and_drop/command/ut_grab_command.h" line="30" status="run" result="completed" time="0.018" timestamp="2022-12-16T14:47:49.204" classname="GrabCommandTest" />
+    <testcase name="testgetX" file="test/./graphics/drag_and_drop/command/ut_grab_command.h" line="38" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:49.223" classname="GrabCommandTest" />
+    <testcase name="testgetY" file="test/./graphics/drag_and_drop/command/ut_grab_command.h" line="44" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:49.233" classname="GrabCommandTest" />
+    <testcase name="testAddCommand" file="test/./graphics/drag_and_drop/command/ut_grab_command.h" line="50" status="run" result="completed" time="0.012" timestamp="2022-12-16T14:47:49.241" classname="GrabCommandTest" />
+    <testcase name="testGetCommands" file="test/./graphics/drag_and_drop/command/ut_grab_command.h" line="56" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:49.254" classname="GrabCommandTest" />
+  </testsuite>
+  <testsuite name="MoveCommandTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.074" timestamp="2022-12-16T14:47:49.263">
+    <testcase name="testExecute" file="test/./graphics/drag_and_drop/command/ut_move_command.h" line="23" status="run" result="completed" time="0.034" timestamp="2022-12-16T14:47:49.263" classname="MoveCommandTest" />
+    <testcase name="testUndo" file="test/./graphics/drag_and_drop/command/ut_move_command.h" line="30" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:49.298" classname="MoveCommandTest" />
+    <testcase name="testgetX" file="test/./graphics/drag_and_drop/command/ut_move_command.h" line="38" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:49.307" classname="MoveCommandTest" />
+    <testcase name="testgetY" file="test/./graphics/drag_and_drop/command/ut_move_command.h" line="44" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:49.312" classname="MoveCommandTest" />
+    <testcase name="testAddCommand" file="test/./graphics/drag_and_drop/command/ut_move_command.h" line="50" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:49.319" classname="MoveCommandTest" />
+    <testcase name="testGetCommands" file="test/./graphics/drag_and_drop/command/ut_move_command.h" line="56" status="run" result="completed" time="0.007" timestamp="2022-12-16T14:47:49.330" classname="MoveCommandTest" />
+  </testsuite>
+  <testsuite name="DropCommandTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.054" timestamp="2022-12-16T14:47:49.339">
+    <testcase name="testExecute" file="test/./graphics/drag_and_drop/command/ut_drop_command.h" line="23" status="run" result="completed" time="0.021" timestamp="2022-12-16T14:47:49.339" classname="DropCommandTest" />
+    <testcase name="testUndo" file="test/./graphics/drag_and_drop/command/ut_drop_command.h" line="30" status="run" result="completed" time="0.009" timestamp="2022-12-16T14:47:49.361" classname="DropCommandTest" />
+    <testcase name="testgetX" file="test/./graphics/drag_and_drop/command/ut_drop_command.h" line="38" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:49.370" classname="DropCommandTest" />
+    <testcase name="testgetY" file="test/./graphics/drag_and_drop/command/ut_drop_command.h" line="44" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:49.376" classname="DropCommandTest" />
+    <testcase name="testAddCommand" file="test/./graphics/drag_and_drop/command/ut_drop_command.h" line="50" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:49.382" classname="DropCommandTest" />
+    <testcase name="testGetCommands" file="test/./graphics/drag_and_drop/command/ut_drop_command.h" line="56" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:49.389" classname="DropCommandTest" />
+  </testsuite>
+  <testsuite name="UndoCommandTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.034" timestamp="2022-12-16T14:47:49.394">
+    <testcase name="testExecute" file="test/./graphics/drag_and_drop/command/ut_undo_command.h" line="31" status="run" result="completed" time="0.014" timestamp="2022-12-16T14:47:49.395" classname="UndoCommandTest" />
+    <testcase name="testUndo" file="test/./graphics/drag_and_drop/command/ut_undo_command.h" line="38" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:49.410" classname="UndoCommandTest" />
+    <testcase name="testAddCommand" file="test/./graphics/drag_and_drop/command/ut_undo_command.h" line="42" status="run" result="completed" time="0.006" timestamp="2022-12-16T14:47:49.416" classname="UndoCommandTest" />
+    <testcase name="testGetCommands" file="test/./graphics/drag_and_drop/command/ut_undo_command.h" line="48" status="run" result="completed" time="0.004" timestamp="2022-12-16T14:47:49.424" classname="UndoCommandTest" />
+  </testsuite>
+  <testsuite name="MacroCommandTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.053" timestamp="2022-12-16T14:47:49.431">
+    <testcase name="testExecute" file="test/./graphics/drag_and_drop/command/ut_macro_command.h" line="18" status="run" result="completed" time="0.026" timestamp="2022-12-16T14:47:49.431" classname="MacroCommandTest" />
+    <testcase name="testUndo" file="test/./graphics/drag_and_drop/command/ut_macro_command.h" line="29" status="run" result="completed" time="0.011" timestamp="2022-12-16T14:47:49.457" classname="MacroCommandTest" />
+    <testcase name="testAddCommand" file="test/./graphics/drag_and_drop/command/ut_macro_command.h" line="41" status="run" result="completed" time="0.005" timestamp="2022-12-16T14:47:49.469" classname="MacroCommandTest" />
+    <testcase name="testGetCommands" file="test/./graphics/drag_and_drop/command/ut_macro_command.h" line="53" status="run" result="completed" time="0.008" timestamp="2022-12-16T14:47:49.475" classname="MacroCommandTest" />
+  </testsuite>
+</testsuites>
